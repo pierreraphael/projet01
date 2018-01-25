@@ -1,0 +1,102 @@
+body {
+font-family: 'Montserrat', sans-serif;
+background-color: #abdbd0;
+color : white;
+}
+header {
+    background-image: url('images/auto.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header {
+  text-align: center;
+  font-size: 2em;
+
+}
+h1{
+font-family: 'Spectral SC', serif;
+text-align: center;
+}
+h2{
+font-family: 'Spectral SC', serif;
+text-align: center;
+font-size: 2em;
+}
+h3{
+font-family: 'Spectral SC', serif;
+text-align: center;
+}
+h4{
+font-family: 'Montserrat', sans-serif;
+}
+p{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+
+}
+section {
+  padding: 20px;
+  text-align: center;
+
+
+}
+.header-content-block {
+
+}
+#bio {
+  text-align: center;
+
+}
+.bio-content-block {
+  background-color: #7b8bb4;
+text-align: center;
+
+}
+#comp {
+
+}
+.comp-content {
+
+  background-color: #7b8bb4;
+  padding: 1em;
+}
+
+.section-content {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #7b8bb4;
+  justify-content: space-around;
+}
+
+#portfolio{
+
+
+}
+.portfolio-content {
+
+  padding: 1em;
+
+
+
+}
+footer{
+  background-color: #7b8bb4;
+  padding: 20px;
+  text-align: center;
+
+}
+.adress {
+
+}
+.social-links {
+
+}
+img {
+
+
+}
