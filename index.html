@@ -4,7 +4,11 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles/main.css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat|Spectral+SC" rel="stylesheet">
-
+<link rel="stylesheet" href="styles/colorbox.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="scripts/jquery.lettering.js"></script>
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/jquery.colorbox-min.js"></script>
     <title>Pierre-Raphaël</title>
   </head>
 
@@ -26,59 +30,65 @@
 
     </section>
 
-    <section id="comp">
-      <h2>Compétences</h2>
-      <div class="section-content">
+    <div class="thumb01">
 
 
-      <div class="comp-content">
-      <img src="images/Comp02.jpg" alt="">
-      <h3><a href="#">Illustration</a></h3>
-      <p></p></div>
-      <div class="comp-content">
-      <img src="images/Comp01.jpg" alt="">
-      <h3><a href="#">Maquette Photoshop</a></h3>
-      <p></p></div>
-      <div class="comp-content">
-      <img src="images/Comp03.jpg" alt="">
-      <h3><a href="#">Packaging</a></h3>
-      <p></p>
-</div>
-</div>
-    </section>
+        <a class='gallery' href="images/Comp01.jpg">
+          <img src="images/Comp01.jpg" alt="Botticelli">
+        </a>
 
-    <section id="portfolio">
-      <h2>Portfolio</h2>
-      <div class="section-content">
+        <a class='gallery' href='images/Comp02.jpg'>
+            <img src="images/Comp02.jpg" alt="Botticelli">
+        </a>
 
-      <div class="portfolio-content">
-      <h3><a href="#">Illustration</a></h3>
-      <img src="images/Portfolio01.jpg" alt="">
-      </div>
-      <div class="portfolio-content">
-      <h3><a href="#">Archétype</a></h3>
-      <img src="images/Portfolio02.jpg" alt="">
-      </div>
-      <div class="portfolio-content">
-      <h3><a href="#">Edition</a></h3>
-      <img src="images/Portfolio03.jpg" alt="">
-      </div>
-      <div class="portfolio-content">
-      <h3><a href="#">Identité Visuelle</a></h3>
-      <img src="images/Portfolio04.jpg" alt="">
-      </div>
-      <div class="portfolio-content">
-      <h3><a href="#">Environment</a></h3>
-      <img src="images/Portfolio05.jpg" alt="">
+        <a class='gallery' href='images/Comp03.jpg'>
+      <img src="images/Comp03.jpg" alt="Botticelli">
+      </a>
+
     </div>
-      <div class="portfolio-content">
-      <h3><a href="#">Lettrine</a></h3>
-      <img src="images/Portfolio06.jpg" alt="">
-      </div>
+  <p>Mise En Page</p><p>Illustration</p><p>Packaging</p>
 
-  </div>
+    <div class="thumb">
 
-    </section>
+
+        <a class='gallery' href="images/Portfolio01.jpg">
+          <img src="images/Portfolio01.jpg" alt="Botticelli">
+        </a>
+
+        <a class='gallery' href='images/Portfolio02.jpg'>
+            <img src="images/Portfolio02.jpg" alt="Botticelli">
+        </a>
+
+        <a class='gallery' href='images/Portfolio03.jpg'>
+      <img src="images/Portfolio03.jpg" alt="Botticelli">
+      </a>
+
+      <a class='gallery' href='images/Portfolio04.jpg'>
+    <img src="images/Portfolio04.jpg" alt="Botticelli">
+    </a>
+
+    <a class='gallery' href='images/Portfolio05.jpg'>
+  <img src="images/Portfolio05.jpg" alt="Botticelli">
+  </a>
+
+  <a class='gallery' href='images/Portfolio06.jpg'>
+<img src="images/Portfolio06.jpg" alt="Botticelli">
+</a>
+<p>Korean Girl</p>
+<p>Gilgamesh</p>
+<p>Inuit</p>
+<p>Bibimbap</p>
+<p>Navajo</p>
+<p>Aztek</p>
+    </div>
+
+    <script>
+      $(document).ready(function() {
+        $(".fancy_title").lettering();
+      });
+      jQuery('a.gallery').colorbox({ opacity:0.5 , rel:'group1'});
+  </script>
+
 
   <footer>
     <div class="adress">
