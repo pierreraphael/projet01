@@ -16,7 +16,7 @@
   <header>
     <div class="header-content-block">
     <h1>Pierre-Raphaël Léger</h1>
-    <h1>"Il faut cultiver son jardin"</h1>
+    <h1 class="fancy_title">"Il faut cultiver son jardin"</h1>
     </div>
   </header>
 
@@ -33,53 +33,80 @@
     <div class="thumb01">
 
 
+<div class="thumb-item">
         <a class='gallery' href="images/Comp01.jpg">
           <img src="images/Comp01.jpg" alt="Botticelli">
         </a>
+        <p>Mise En Page</p>
+        </div>
 
+<div class="thumb-item">
         <a class='gallery' href='images/Comp02.jpg'>
             <img src="images/Comp02.jpg" alt="Botticelli">
         </a>
+        <p>Illustration</p>
+        </div>
 
+<div class="thumb-item">
         <a class='gallery' href='images/Comp03.jpg'>
       <img src="images/Comp03.jpg" alt="Botticelli">
       </a>
+        <p>Packaging</p>
+        </div>
 
     </div>
-  <p>Mise En Page</p><p>Illustration</p><p>Packaging</p>
+
 
     <div class="thumb">
 
-
-        <a class='gallery' href="images/Portfolio01.jpg">
+      <div class="thumb-item">
+        <a class='gallery02' href="images/Portfolio01.jpg">
           <img src="images/Portfolio01.jpg" alt="Botticelli">
         </a>
+        <p>Korean Girl</p>
+      </div>
 
-        <a class='gallery' href='images/Portfolio02.jpg'>
+
+      <div class="thumb-item">
+        <a class='gallery02' href='images/Portfolio02.jpg'>
             <img src="images/Portfolio02.jpg" alt="Botticelli">
         </a>
+        <p>Gilgamesh</p>
+        </div>
 
-        <a class='gallery' href='images/Portfolio03.jpg'>
+<div class="thumb-item">
+        <a class='gallery02' href='images/Portfolio03.jpg'>
       <img src="images/Portfolio03.jpg" alt="Botticelli">
       </a>
+      <p>Inuit</p>
+      </div>
 
-      <a class='gallery' href='images/Portfolio04.jpg'>
+<div class="thumb-item">
+      <a class='gallery02' href='images/Portfolio04.jpg'>
     <img src="images/Portfolio04.jpg" alt="Botticelli">
     </a>
+    <p>Bibimbap</p>
+    </div>
 
-    <a class='gallery' href='images/Portfolio05.jpg'>
+<div class="thumb-item">
+    <a class='gallery02' href='images/Portfolio05.jpg'>
   <img src="images/Portfolio05.jpg" alt="Botticelli">
   </a>
+  <p>Navajo</p>
+  </div>
 
-  <a class='gallery' href='images/Portfolio06.jpg'>
+<div class="thumb-item">
+  <a class='gallery02' href='images/Portfolio06.jpg'>
 <img src="images/Portfolio06.jpg" alt="Botticelli">
 </a>
-<p>Korean Girl</p>
-<p>Gilgamesh</p>
-<p>Inuit</p>
-<p>Bibimbap</p>
-<p>Navajo</p>
 <p>Aztek</p>
+</div>
+
+
+
+
+
+
     </div>
 
     <script>
@@ -87,6 +114,7 @@
         $(".fancy_title").lettering();
       });
       jQuery('a.gallery').colorbox({ opacity:0.5 , rel:'group1'});
+      jQuery('a.gallery02').colorbox({ opacity:0.5 , rel:'group2'});
   </script>
 
 
@@ -97,7 +125,6 @@
 </div>
 <div class="social-links">
 <h4><a href="https://www.instagram.com/pierre_raphael_leger/?hl=fr">Instagram</a></h4>
-<img src="images/50x50.png" alt="">
 </div>
 
   </footer>

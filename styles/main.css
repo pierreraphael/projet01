@@ -54,6 +54,7 @@ section {
 .bio-content-block {
   background-color: #2f5f6d;
 text-align: center;
+padding: 40px;
 
 }
 #comp {
@@ -136,5 +137,51 @@ p {
   flex-wrap: wrap;
     align-items: center;
   text-align: center;
+
+}
+
+.char10 {
+  font-size: 2em;
+  color : #6d2f2f;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.char11 {
+  font-size: 1em;
+  color : #6d2f2f;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.char12 {
+  font-size: 1em;
+  color : #6d2f2f;
+  font-family: 'Montserrat', sans-serif;
+
+}.char13 {
+  font-size: 1em;
+  color : #6d2f2f;
+  font-family: 'Montserrat', sans-serif;
+
+}.char14 {
+  font-size: 1em;
+  color : #6d2f2f;
+  font-family: 'Montserrat', sans-serif;
+
+}.char15 {
+  font-size: 1em;
+  color : #6d2f2f;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.char16 {
+  font-size: 1em;
+  color : #6d2f2f;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.char17 {
+  font-size: 1em;
+  color : #6d2f2f;
+  font-family: 'Montserrat', sans-serif;
 
 }
